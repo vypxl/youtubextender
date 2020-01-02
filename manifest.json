@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "version": "1.0.0",
+    "name": "YoutubeXTender",
+    "description": "Some minor quality-of-life features for the YouTube website.",
+    "permissions": ["http://youtube.com/*", "https://youtube.com/*"],
+    "content_scripts": [
+        {
+            "matches": [
+                "http://youtube.com/*",
+                "https://youtube.com/*",
+                "http://*.youtube.com/*",
+                "https://*.youtube.com/*"
+            ],
+            "js": ["timeWidget.js", "player.js", "subs.js"]
+        }
+    ]
+}
