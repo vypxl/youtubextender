@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "YoutubeXTender",
   "description": "Some minor quality-of-life features for the YouTube website.",
   "host_permissions": ["http://youtube.com/*", "https://youtube.com/*"],
